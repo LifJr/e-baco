@@ -9,7 +9,7 @@ footer {
     color: black;
     padding-top: 5rem;
     font-size: 17px;
-    height: 40vh;
+    height: 50vh;
   }
   
   .footer_container {
@@ -29,12 +29,12 @@ footer {
 
   .footer_container > div h4 {
     margin-bottom: 1.2rem;
-    color: ; 
+    color: black; 
     font-weight: bold;
   }
   
   .footer_container a {
-    color: #fff;
+    color: black; 
     text-decoration: none;
   }
   
@@ -44,7 +44,7 @@ footer {
   
   footer ul li {
     margin-bottom: 0.7rem;
-    list-style: none;
+    list-style-type: none;
   }
   
   footer ul li a:hover {
@@ -56,14 +56,16 @@ footer {
     gap: 1rem;
     font-size: 1.2rem;
     margin-top: 2rem;
+    color: black;
   }
   .footer_copyright {
     text-align: center;
-    margin-top: 4rem;
-    padding: 1.2rem 0;
     border-top: 1px solid var(--color-bg2);
-    background-color: ;
-    color: black;
+    background-color: white;
+    color: white;
+    background-color: black;
+    padding: 1.2rem 0;
+    margin-top: 4rem;
   }
   
   /* END FOOTER */
@@ -80,6 +82,7 @@ footer {
   }
   .footer_socials {
     justify-content: center;
+    color:black;
   }
 }
 
