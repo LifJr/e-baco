@@ -72,6 +72,11 @@ footer {
 
   @media screen and (max-width: 600px) {
   /* ======================FOOTER=========================*/
+  footer {
+    padding-top: 3rem;
+    font-size: 14px;
+    height: 120vh;
+  }
   .footer_container {
     grid-template-columns: 1fr;
     text-align: center;
