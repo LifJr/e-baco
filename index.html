@@ -20,8 +20,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
 
     <!--  -->
+
+     <!-- FONTAWESOME -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
 </head>
 <body>
+    <div id="progress">
+        <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+
+    <script>
+        function scrollToTop(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     <!--Header section-->
        <header class="header">
             <a href="#" class="logo"><span>E-BACO</span></a>
@@ -129,27 +148,33 @@
 
                 <div class="content">
                     <h3>Nous vous fournirons le meilleur travail dont vous avez rêvé !</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, adipisci? Accusantium soluta expedita, quidem id molestiae ab dicta consequuntur? Quidem praesentium beatae necessitatibus ut ipsa obcaecati laudantium nostrum quo odio!</p>
+                    <p>Besoin de construire un villa, un bâtiment, un pont, d'amenager une maison, acheter des fournitures de maison de haute qualité, etc... Faites confiance à Entreprise - Ballo et Construction.</p>
                     <a href="#services" class="btn">Lire Encore Plus</a>
                 </div>
             </div>
             <div class="box-container">
                 <div class="box">
-                    <h3>+5</h3>
+                    <h3>+<span class="counter">5</span></h3>
                     <p>Années d'Expérience</p>
                 </div>
                 <div class="box">
-                    <h3>+100</h3>
+                    <h3 >+ <span class="counter">100</span></h3>
                     <p>Projets</p>
                 </div>
                 <div class="box">
-                    <h3>+1000</h3>
+                    <h3>+<span class="counter">1000</span></h3>
                     <p>Clients satisfait</p>
                 </div>
                 <div class="box">
-                    <h3>+40</h3>
+                    <h3>+<span class="counter">40</span></h3>
                     <p>Employés active</p>
                 </div>
+            </div>
+       </section>
+       <section class="#about" id="#about">
+            <h1 class="heading">Certifications et Formations</h1>
+            <div>
+                <embed src="./images/projects/certificat.pdf" type="application/pdf" style="width: 100%; height: 50vh;">
             </div>
        </section>
     <!--Section About End-->
@@ -161,22 +186,22 @@
             <div class="box">
                 <img src="./images/services/building-const.png" alt="Image non trouvé">
                 <h3>Construction des Villas</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti </p>
+                <p>Notre entreprise construit des villas personnalisés pour chaque client. </p>
             </div>
             <div class="box">
                 <img src="./images/services/house-renov.png" alt="Image non trouvé">
                 <h3>Renouvellement de la maison</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti </p>
+                <p>Notre entreprise renouvelle les maisons déjà construites pour ses potentiels clients. </p>
             </div>
             <div class="box">
                 <img src="./images/services/archi-plan.png" alt="Image non trouvé">
                 <h3>Plan Architectural</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti </p>
+                <p>Notre entreprise crée des plans de bâtiment, villas, ect... </p>
             </div>
             <div class="box">
                 <img src="./images/services/material.png" alt="Image non trouvé">
                 <h3>Les fournitures</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti </p>
+                <p>Notre entreprise vend des fornitures de maison de hautes qualités. </p>
             </div>
         </div>
        </section>
@@ -186,97 +211,241 @@
        <section class="projects" id="projects">
             <h1 class="heading">Nos Projects Réalisés Et En Cours de Réalisation</h1>
             <div class="box-container">
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_plan-1.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_plan-1.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Plan de Construction - 1</h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
                     </div>
                 </a>
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_plan-2.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_plan-2.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Plan de Construction - 2 </h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
                     </div>
                 </a>
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_plan-3.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_plan-3.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Plan de Construction - 3 </h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
                     </div>
                 </a>
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_plan-4.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_plan-4.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Projet - 1</h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
                     </div>
                 </a>
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_1-pv1.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_1-pv1.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Projet - 2</h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
                     </div>
                 </a>
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_2-grp.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_2-grp.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Projet - 3</h3>
+                            <p>Construction et Entretien</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_3-porte.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_3-porte.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 4</h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
                     </div>
                 </a>
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_4-poto.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_4-poto.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Projet -5</h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
                     </div>
                 </a>
-                <a href="./images/projects/project-1.jpg" class="box">
+                <a href="./images/projects/project_5-nature.jpeg" class="box">
                     <div class="image">
-                        <img src="./images/projects/project-1.jpg" alt="">
+                        <img src="./images/projects/project_5-nature.jpeg" alt="">
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Maison de Rêve</h3>
+                            <h3>Projet - 6</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_6-fini-1.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_6-fini-1.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 7</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_7-presque-fini-2.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_7-presque-fini-2.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 8</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_8-nature.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_8-nature.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 9</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_9-nature.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_9-nature.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 10</h3>
+                            <p>Construction et Entretien</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_11-presque-fini.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_11-presque-fini.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 11</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_10-pont-1.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_10-pont-1.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 12</h3>
+                            <p>Construction et Entretien</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_10-pont-2.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_10-pont-2.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projet - 13 </h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_10-pont-3.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_10-pont-3.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Project - 14</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_10-pont-4.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_10-pont-4.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Project - 15</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_10-pont-5.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_10-pont-5.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Project - 14</h3>
+                            <p>Construction et Amenagement</p>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </a>
+                <a href="./images/projects/project_10-pont-6.jpeg" class="box">
+                    <div class="image">
+                        <img src="./images/projects/project_10-pont-6.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Project - 14</h3>
                             <p>Construction et Amenagement</p>
                         </div>
                         <i class="fas fa-plus"></i>
@@ -293,40 +462,40 @@
         <div class="box-container">
             <div class="box">
                 <i class="fas fa-home"></i>
-                <h3>Plan basique</h3>
-                <div class="price">50.000 <span>FCFA</span><span>/Mois</span></div>
+                <h3>Conception de base</h3>
+                <div class="price">200.000 <span>FCFA</span></div>
                 <div class="list">
-                    <p>Interior Design</p>
-                    <p>Refurbishement</p>
-                    <p>Material Supply</p>
-                    <p>Maintenance</p>
-                    <p>24/7 Support</p>
+                    <p>Design d'intérieur</p>
+                    <p>Remise à neuf</p>
+                    <p>Approvisionnement en matériel</p>
+                    <p>Entretien</p>
+                    <p>Assistance 24h/24 et 7j/7</p>
                 </div>
                 <a href="#projects" class="btn">Choisissez un plan</a>
             </div>
             <div class="box">
                 <i class="fas fa-building"></i>
-                <h3>Plan Premium</h3>
-                <div class="price">50.000 <span>FCFA</span><span>/Mois</span></div>
+                <h3>Conception haut de gamme</h3>
+                <div class="price">500.000 <span>FCFA</span></div>
                 <div class="list">
-                    <p>Interior Design</p>
-                    <p>Refurbishement</p>
-                    <p>Material Supply</p>
-                    <p>Maintenance</p>
-                    <p>24/7 Support</p>
+                    <p>Design d'intérieur</p>
+                    <p>Remise à neuf</p>
+                    <p>Approvisionnement en matériel</p>
+                    <p>Entretien</p>
+                    <p>Assistance 24h/24 et 7j/7</p>
                 </div>
                 <a href="#projects" class="btn">Choisissez un plan</a>
             </div>
             <div class="box">
                 <i class="fas fa-city"></i>
-                <h3>Plan ultimate</h3>
-                <div class="price">50.000 <span>FCFA</span><span>/Mois</span></div>
+                <h3>Conception ultime</h3>
+                <div class="price">1.000.000 <span>FCFA</span></div>
                 <div class="list">
-                    <p>Interior Design</p>
-                    <p>Refurbishement</p>
-                    <p>Material Supply</p>
-                    <p>Maintenance</p>
-                    <p>24/7 Support</p>
+                    <p>Design d'intérieur</p>
+                    <p>Remise à neuf</p>
+                    <p>Approvisionnement en matériel</p>
+                    <p>Entretien</p>
+                    <p>Assistance 24h/24 et 7j/7</p>
                 </div>
                 <a href="#projects" class="btn">Choisissez un plan</a>
             </div>
@@ -425,5 +594,20 @@
     </script>
     <!-- JS Link-->
     <script src="./js/script.js"></script>
+
+    <!--Counter up-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".counter").counterUp({
+              delay: 10,
+              time: 1200,
+            });
+          });          
+    </script>
+    <script src="./js/scroll-top.js"></script>
 </body>
 </html>

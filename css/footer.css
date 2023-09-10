@@ -9,7 +9,7 @@ footer {
     color: black;
     padding-top: 5rem;
     font-size: 17px;
-    height: 50vh;
+    height: 40vh;
   }
   
   .footer_container {
@@ -76,7 +76,7 @@ footer {
   footer {
     padding-top: 3rem;
     font-size: 14px;
-    height: 120vh;
+    height: 80vh;
     position: relative;
   }
 
@@ -108,8 +108,8 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 10px;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     display: grid;
     place-items: center;
     border-radius: 50%;
@@ -126,7 +126,7 @@ footer {
     border-radius: 50%;
     display: grid;
     place-items: center;
-    font-size: 20px;
+    font-size: 35px;
     color: #001a2e;
 }
 
